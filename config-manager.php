@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Plugin Name: Config Manager
+ * Plugin URI: https://github.com/wemakecustom/wp-mu-config-manager
+ * Author: WeMakeCustom
+ * Author URI: http://www.wemakecustom.com/
+ */
+
 add_action('tgmpa_register', function() {
     tgmpa(array(
         array(
