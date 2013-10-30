@@ -8,7 +8,7 @@
  */
 
 add_action('tgmpa_register', function() {
-    tgmpa(array(
+    required_plugins_register(array(
         array(
             'name'                  => 'Config Manager', // The plugin name
             'slug'                  => 'config-manager', // The plugin slug (typically the folder name)

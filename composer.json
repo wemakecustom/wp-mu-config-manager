@@ -12,7 +12,7 @@
     ],
     "require": {
         "wemakecustom/wp-config-manager": "*",
-        "tgm/plugin-activation": "dev-master",
+        "wemakecustom/wp-mu-required-plugins": "*",
         "composer/installers": "~1.0"
     },
     "extra": {
