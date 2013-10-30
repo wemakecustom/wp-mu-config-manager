@@ -1,0 +1,21 @@
+{
+    "name": "wemakecustom/wp-mu-config-manager",
+    "type": "wordpress-muplugin",
+    "description": "MU Loader for wemakecustom/wp-config-manager",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "WeMakeCustom",
+            "email": "info@wemakecustom.com",
+            "homepage": "http://www.wemakecustom.com"
+        }
+    ],
+    "require": {
+        "wemakecustom/wp-config-manager": "*",
+        "tgm/plugin-activation": "dev-master",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "config-manager"
+    }
+}
